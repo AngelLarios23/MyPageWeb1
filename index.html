@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angel Eduardo Larios Torres</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+  <!-- HEADER -->
+<header class="header">
+  <a href="#" class="logo"><span>Angel Eduardo Larios Torres</span></a>
+  
+  <i id="menu-icon" class="bx bx-menu" aria-label="Abrir menú de navegación"></i>
+  
+  <nav class="navbar">
+    <a href="#home" class="active">Inicio</a>
+    <a href="#about">Sobre mí</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#skills">Habilidades</a>
+    <a href="#contact">Contacto</a>
+  </nav>
+</header>
+
+
+  <!-- HOME -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hola ✌️<span> Bienvenidos</span></h1> 
+      <h3 class="text-animation">Sobre mí</h3>
+      <p>Programador en inteligencia artificial con mentalidad de crecimiento y experiencia en proyectos simulando entornos reales.</p>
+      <div class="social-icons">
+        <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+        <a href="#"><i class='bx bxl-github'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+      </div>
+      <div class="btn-group">
+        <a href="#contact" class="btn">Contacto</a>
+        <a href="#cv" class="btn">Descargar CV</a>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+  <div class="about-content">
+    <h2 class="heading">Sobre <span>Mí</span></h2>
+    <p>
+      Programador en inteligencia artificial, cursando la carrera desde la preparatoria hasta la universidad, donde en ese lapso he participado en diversos eventos que simulan el ámbito laboral, adquiriendo un aprendizaje de primera calidad.
+      <br /><br />
+      Tengo una mentalidad enfocada en potenciar mi conocimiento y resolver problemas que ayuden a las empresas a ofrecer mejores soluciones a sus clientes.
+    </p>
+  </div>
+</section>
+
+
+  <!-- PROYECTOS -->
+  <section class="projects" id="projects">
+    <h2>Proyectos</h2>
+    <div class="project-container">
+      <div class="project-card">
+       <a href="https://github.com/AngelLarios23/AplicacionMovil.git"> <img src="imagenes/Ciberseguridad.jpg" /> </a>
+        <h3>App de Seguridad Femenina</h3>
+        <p>Una app para mapear zonas peligrosas y dar alertas en tiempo real.</p>
+        <p><strong>Tecnologías:</strong> React, Leaflet, CSS</p>
+      </div>
+      <div class="project-card">
+        <a href="https://github.com/AngelLarios23/BusLink.git"><img src="imagenes\mobility.jpeg" alt="Proyecto 2" /></a>
+        <h3>Clasificador de Imágenes con CNN</h3>
+        <p>Modelo de IA para clasificar objetos en fotos.</p>
+        <p><strong>Tecnologías:</strong> Python, TensorFlow</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+<section class="skills" id="skills">
+  <h2 class="heading">Habilidades <span>Técnicas</span></h2>
+  <div class="skills-container">
+    <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" class="skill-box">
+      <i class='bx bxl-html5'></i>
+      <span>HTML5</span>
+    </a>
+    <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" class="skill-box">
+      <i class='bx bxl-css3'></i>
+      <span>CSS3</span>
+    </a>
+    <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" class="skill-box">
+      <i class='bx bxl-javascript'></i>
+      <span>JavaScript</span>
+    </a>
+    <a href="https://reactjs.org/" target="_blank" class="skill-box">
+      <i class='bx bxl-react'></i>
+      <span>React</span>
+    </a>
+    <a href="https://www.python.org/" target="_blank" class="skill-box">
+      <i class='bx bxl-python'></i>
+      <span>Python</span>
+    </a>
+    <a href="https://git-scm.com/" target="_blank" class="skill-box">
+      <i class='bx bxl-git'></i>
+      <span>Git</span>
+    </a>
+  </div>
+</section>
+
+
+  <!-- CV -->
+<section class="cv" id="cv">
+  <h2>Mi CV Profesional</h2>
+  <a href="cv.pdf" download class="btn-download">
+    <i class='bx bxs-download'></i> Descargar CV
+  </a>
+</section>
+
+
+  <!-- CONTACTO -->
+<section id="contact" class="cv">
+  <h2 class="heading"><span>Contacto</span></h2>
+
+  <div class="contact-content">
+    <!-- Información directa -->
+    <div class="contact-info">
+      <p><strong>Correo:</strong>angeleduardolarios23@gmail.com</p>
+      <p><strong>Teléfono:</strong>+52 449 211 90 60</p>
+
+      <!-- Redes sociales -->
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/tuusuario" target="_blank" aria-label="LinkedIn">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="https://github.com/AngelLarios23" target="_blank" aria-label="GitHub">
+          <i class="bx bxl-github"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Formulario de contacto -->
+    <form action="https://formspree.io/f/xovwjnvd" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo electrónico" required>
+      <textarea name="message" rows="5" placeholder="Tu mensaje..." required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </div>
+</section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
